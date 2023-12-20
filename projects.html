@@ -1,37 +1,118 @@
 <!DOCTYPE html>
 
-<!-- Jorge Lujan's ePortfolio -->
 <html>
 
 <head>
-    <title>Jorge Lujan ePortfolio</title>
-    <link href='pstyle.css' rel="stylesheet">
-    <link rel="icon" type="image/png" href="./favicon.png">
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
+    <title>Jorge Lujan</title>
+    <link rel="icon" type="image/png" href="./ePortfolio Logo.png">
+    <link rel="stylesheet" href="style-projects.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jorge A Lujan's Projects.">
+    <meta charset="utf-8">
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Q01V8P7LN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Q01V8P7LN');
+</script>
+    
 <header>
-    <table class="navbar">
-        <tr>
-            <td class="navelements"><a href="./index.html">Home</a></td>
-            <td class="navelements"><a href="./education.html">Education</a></td>
-            <td class="navelements"><a href="./projects.html">Projects</a></td>
-            <td class="navelements"><a href="./hobbies.html">Hobbies & Interests</a></td>
-        </tr>
-    </table>
+    <div class="navbar">
+        <a id="home" href="./index.html">Home</a>
+        <a id="education" href="./education.html">Education</a>
+        <a id="projects" href="Projects.html">Projects</a>
+    </div>
 </header>
 
 <body>
-    <div class="main">
-        <img src="./Background.jpg" width="100%">
-        <h1 id="name">Projects</h1>
+    <section class="title">
+        <h1 class="ml14">
+            <span class="text-wrapper">
+                <span class="letters">Projects</span>
+                <span class="line"></span>
+            </span>
+        </h1>
+    </section>
+
+    <div class="cards-container" id="cardsContainer">
+        <a href="https://github.com/jlujan209/Game-of-UNO" target="_blank">
+            <div class="card">
+                <img src="./UNO.png" alt="UNO Logo" style="width:100%">
+                <div class="container">
+                    <h4><b class="card-title">Game of UNO</b></h4>
+                    <p class="card-content">Click On Card for Source Code</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://github.com/jlujan209/Alien-Invasion-Game" target="_blank">
+            <div class="card">
+                <img src="./Alien.gif" alt="Alien Invasion Game" style="width:100%">
+                <div class="container">
+                    <h4><b class="card-title">Alien Invasion Game</b></h4>
+                    <p class="card-content">Click On Card for Source Code</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://github.com/jlujan209/Shopping-Cart" target="_blank">
+            <div class="card">
+                <img src="./cart.png" alt="Shopping Cart" style="width:100%">
+                <div class="container">
+                    <h4><b class="card-title">Shopping Cart</b></h4>
+                    <p class="card-content">Click On Card for Source Code</p>
+                </div>
+            </div>
+        </a>
+        <!---This is newly added-->
+        <a href="https://github.com/jlujan209/CHESS-UI" target="_blank">
+            <div class="card">
+                <img src="./chess.jpg" alt="Chessboard" style="width:100%">
+                <div class="container">
+                    <h4><b class="card-title">Chess Openings UI</b></h4>
+                    <p class="card-content">Click On Card for Source Code</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://github.com/jlujan209/EIS-SCRD" target="_blank">
+            <div class="card">
+                <img src="./EIS.png" alt="Environmental Information System" style="width:100%">
+                <div class="container">
+                    <h4><b class="card-title">Environmental Information System SCRD</b></h4>
+                    <p class="card-content">Click On Card for Documentation</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://github.com/jlujan209/e-Portfolio" target="_blank">
+            <div class="card">
+                <img src="./e-portfolio.png" alt="jlujan.com" style="width:100%">
+                <div class="container">
+                    <h4><b class="card-title">e-Portfolio Website</b></h4>
+                    <p class="card-content">Click On Card for Source Code</p>
+                </div>
+            </div>
+        </a>
     </div>
 </body>
 
 <footer>
-
+    <h3>Contact Info</h3>
+    <div id="contact-info">
+        <p class="info">Personal email: <a href="mailto:jlujan209@gmail.com" id="mail209">jlujan209@gmail.com</a></p>
+        <p class="info">School email: <a href="mailto:jorgelujan@arizona.edu">jorgelujan@arizona.edu</a></p>
+        <p class="info">LinkedIn: <a href="https://www.linkedin.com/in/jorge-a-lujan/"
+                target="_blank">linkedin.com/in/jorge-a-lujan/</a></p>
+    </div>
 </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="./script-projects.js"></script>
 
 </html>

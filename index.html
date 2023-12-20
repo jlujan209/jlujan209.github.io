@@ -1,37 +1,166 @@
 <!DOCTYPE html>
 
-<!-- Jorge Lujan's ePortfolio -->
 <html>
 
 <head>
-    <title>Jorge Lujan ePortfolio</title>
-    <link href='style.css' rel="stylesheet">
-    <link rel="icon" type="image/png" href="./favicon.png">
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
+    <!--test webhook-->
+    <meta charset="utf-8">
+    <title>Jorge Lujan</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./ePortfolio Logo.png">
+    <meta name="description" content="Jorge A Lujan's ePortfolio.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Q01V8P7LN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Q01V8P7LN');
+</script>
+
 <header>
-    <table class="navbar">
-        <tr>
-            <td class="navelements"><a href="./index.html">Home</a></td>
-            <td class="navelements"><a href="./education.html">Education</a></td>
-            <td class="navelements"><a href="./projects.html">Projects</a></td>
-            <td class="navelements"><a href="./hobbies.html">Hobbies & Interests</a></td>
-        </tr>
-    </table>
+    <div class="navbar">
+        <a id="home" href="./index.html">Home</a>
+        <a id="education" href="./education.html">Education</a>
+        <a id="projects" href="Projects.html">Projects</a>
+    </div>
 </header>
 
 <body>
-    <div class="main">
-        <img src="./Background.jpg" width="100%">
-        <h1 id="name">Jorge Lujan</h1>
-    </div>
+    <section class="name">
+        <h1>Jorge Lujan</h1>
+        <h2 class="subtitle">I have experience with <span class="txt-rotate" data-period="2000"
+                data-rotate='[ "Java", "Python", "C/C++", "HTML", "CSS", "Javascript", "Verilog"]'></span></h2>
+    </section>
+    <section class="AboutMe">
+        <h2 id="AboutMetitle">About Me</h2>
+        <ul>
+            <li class="abme">I am currently a Junior at the University of Arizona completing a Bachelor of Science in
+                Software
+                Engineering.</li>
+            <li class="abme">I was born in the city of Tucson, AZ, but I was raised in a small border town in Mexico
+                where I lived
+                until I was 18 years old.</li>
+            <li class="abme">During the past two years, I have gained experience on several programming languages such
+                as: C, C++,
+                Python, Javascript, Java, HTML, CSS, and Verilog. This experience has come from some of my courses as
+                well as personal projects.</li>
+            <li class="abme">In the next year, I am expecting to complete courses and personal projects that will allow
+                me to become
+                more profficient in C++, Java, and Python, as well as gaining some basic knowledge of Assembly language.
+            </li>
+            <li class="abme">During my first three semesters at the University of Arizona, I worked for the department
+                of Campus
+                Recreation, where I began as a Facility Attendant and eventually got promoted to Facility Manager after
+                being named the 2021 Attendant of the Year.</li>
+            <li class="abme">I am currently working a student position as an IT Support Analyst for the University's
+                department of
+                Facilities Management, which has taught me many valuable skills when it comes to troubleshooting and
+                operating a Windows environment.</li>
+            <li class="abme">I am currently looking for opportunities as an intern to gain more knowledge and experience
+                in the
+                field.</li>
+        </ul>
+
+    </section>
+    <section class="ASG">
+        <div class="sec" id="achievements">
+            <h2>Achievements</h2>
+            <ul class="achievements">
+                <li>2x AZ Merit Excellence Award in English and Math (2018, 2019)</li>
+                <li>4x Diamond Scholar Award (2018, 2019, 2020, 2021)</li>
+                <li>Ranked top 5% of class at Douglas High School. (2021)</li>
+                <li>Graduated from Douglas High School with Honors and a 3.98 GPA. (2021)</li>
+                <li>Received a score of 4.0 on AP Physics II Exam. (2021)</li>
+                <li>Winter Sports Athlete of the Year at Douglas High School (2021)</li>
+                <li>James and Grace Logie Scholar (2021)</li>
+                <li>Dean's List (2021)</li>
+                <li>Henry W. Oliver Scholar (2022)</li>
+                <li>Tim Christopherson Scholar (2022, 2023)</li>
+                <li>Charles Blixt Memorial Scholar (2022, 2023)</li>
+                <li>Academic Year Academic Distinction (2022, 2023)</li>
+                <li>Dean's List with Distinction (2022, 2023)</li>
+                <li>Cupiss Scholar (2023)</li>
+                <li>Goodding-Anderson Scholar (2023)</li>
+            </ul>
+        </div>
+        <div class="sec" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Verilog</li>
+                <li>Git</li>
+                <li>Git Bash</li>
+                <li>Command Prompt</li>
+                <li>Github</li>
+                <li>Visual Studio Code</li>
+                <li>Visual Studio Enterprise</li>
+                <li>Jupyter Notebook</li>
+                <li>Microsoft Azure</li>
+                <li>Microsoft Active Directory</li>
+                <li>Microsoft Office</li>
+                <li>Vivado</li>
+            </ul>
+        </div>
+        <div class="sec" id="goals">
+            <h2>Goals</h2>
+            <ul class="goals">
+                <li>Gain more profficiency in C++, Java, and Python.</li>
+                <li>Learn the basics of cybersecurity.</li>
+                <li>Improve my physical condition and strength.</li>
+                <li>Improve my written and verbal communication skills.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="Resume">
+        <h2 id="Resume">Resume</h2>
+        <div class="iframe-container">
+            <iframe src="./Jorge Lujan Resume.pdf" height="100%" width="50%" id="resumeframe"></iframe>
+        </div>
+        <a href="./Jorge Lujan Resume.pdf" download="Jorge Lujan Resume.pdf">
+            <div class="button" data-tooltip="Size: 168kb">
+                <div class="button-wrapper">
+                    <div class="text">Download</div>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em"
+                            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17">
+                            </path>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </a>
+    </section>
 </body>
 
 <footer>
 
+    <h3>Contact Info</h3>
+    <div id="contact-info">
+        <p class="info">Personal email: <a href="mailto:jlujan209@gmail.com" >jlujan209@gmail.com</a></p>
+        <p class="info">School email: <a href="mailto:jorgelujan@arizona.edu">jorgelujan@arizona.edu</a></p>
+        <p class="info" id = "linkedin">LinkedIn: <a href="https://www.linkedin.com/in/jorge-a-lujan/"
+                target="_blank">linkedin.com/in/jorge-a-lujan/</a></p>
+    </div>
 </footer>
+
+<script src="./script.js"></script>
 
 </html>
